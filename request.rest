@@ -1,0 +1,25 @@
+get http://localhost:4000/notes
+
+###
+
+post http://localhost:4000/notes
+Content-Type: application/json
+
+{
+    "judul": "Pertemuan 2",
+    "isi_catatan": "Belajar mengenai Frontend"
+}
+
+###
+
+PUT http://localhost:4000/notes/2
+Content-Type: application/json
+
+{
+    "judul": "Pertemuan 3",
+    "isi_catatan": "Belajar mengenai Docker"
+}
+###
+
+DELETE  http://localhost:4000/notes/2
+Content-Type: application/json
