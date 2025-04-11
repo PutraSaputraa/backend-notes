@@ -7,8 +7,4 @@ app.use(cors());
 app.use(express.json());
 app.use(router);
 
-// app.listen(4000, ()=> console.log("Server Telah Berjalan"));
-
-const PORT = process.env.PORT || 4000;
-app.listen(PORT, () => console.log(`Server Telah Berjalan di port ${PORT}`));
-
+app.listen(5000, ()=> console.log("Server Telah Berjalan"));
