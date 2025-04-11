@@ -32,7 +32,7 @@ steps:
         "deploy",
         "be",
         "--image",
-        "gcr.io/$PROJECT_ID/tcc-be",
+        "gcr.io/$PROJECT_ID/myouinote-be",
         "--timeout",
         "1000s",
         "--port",
