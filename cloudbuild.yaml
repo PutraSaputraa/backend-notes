@@ -30,7 +30,7 @@ steps:
       [
         "run",
         "deploy",
-        "be",
+        "myouinote-be",
         "--image",
         "gcr.io/$PROJECT_ID/myouinote-be",
         "--timeout",
