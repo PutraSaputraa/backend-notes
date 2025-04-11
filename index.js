@@ -7,4 +7,4 @@ app.use(cors());
 app.use(express.json());
 app.use(router);
 
-app.listen(5000, ()=> console.log("Server Telah Berjalan"));
+app.listen(4000, ()=> console.log("Server Telah Berjalan"));
