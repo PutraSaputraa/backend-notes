@@ -9,7 +9,7 @@ app.use(router);
 
 // app.listen(4000, ()=> console.log("Server Telah Berjalan"));
 
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
